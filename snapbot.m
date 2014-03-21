@@ -1,4 +1,4 @@
-vid=videoinput('winvideo',1,'RGB24_640x480')
+vid=videoinput('winvideo',1,'RGB24_640x480');
  set(vid,'FramesPerTrigger',1);
  triggerconfig(vid,'manual');
  set(vid,'TriggerRepeat', Inf);
